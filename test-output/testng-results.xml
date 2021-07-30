@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[test case testCaseETT is pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15469" started-at="2021-07-30T11:53:21Z" finished-at="2021-07-30T11:53:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15469" started-at="2021-07-30T11:53:21Z" finished-at="2021-07-30T11:53:36Z">
+      <class name="org.qsp.test.TestEnterTimeTrack">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.qsp.test.TestEnterTimeTrack@3ab39c39]" name="openBrowser" is-config="true" duration-ms="25141" started-at="2021-07-30T17:22:55Z" finished-at="2021-07-30T17:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testCaseETT()[pri:0, instance:org.qsp.test.TestEnterTimeTrack@3ab39c39]" name="testCaseETT" duration-ms="14934" started-at="2021-07-30T17:23:21Z" finished-at="2021-07-30T17:23:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseETT -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.qsp.test.TestEnterTimeTrack@3ab39c39]" name="closeBrowser" is-config="true" duration-ms="501" started-at="2021-07-30T17:23:36Z" finished-at="2021-07-30T17:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaseETT status=SUCCESS method=TestEnterTimeTrack.testCaseETT()[pri:0, instance:org.qsp.test.TestEnterTimeTrack@3ab39c39] output=Home page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[test case testCaseETT is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.qsp.test.TestEnterTimeTrack -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
