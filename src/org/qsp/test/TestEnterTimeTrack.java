@@ -22,6 +22,6 @@ public class TestEnterTimeTrack extends BaseTest {
 		ett.newCustomerClick();
 		ett.customerName("ankur");
 		ett.projectName("qspiders");
-		Thread.sleep(2000);
+		
 	}
 }
